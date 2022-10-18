@@ -1,0 +1,218 @@
+
+.navbar-container {
+    display: flex;
+    /* border: dotted; */
+    padding: 30px;
+    position: fixed;
+  }
+
+  @media screen and (max-width:768px) {
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      padding: 10px;
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      padding: 10px;
+      position: relative;
+    }
+  }
+
+.diego-image {
+    width: 120px;
+    /* border: dotted; */
+    height: auto;
+    padding: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width:320px) {
+  .diego-image {
+    border: dotted;
+    margin: auto;
+  }
+}
+
+:root {
+    --mainColor:#534334;;
+  }
+
+.nav-menu {
+    display: grid;
+    /* border: dotted; */
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 25px;
+    list-style: none;
+    min-width: 90vw;
+    justify-content: end;
+    padding: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width:1440px) {
+  .nav-menu {
+    min-width: 85vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .nav-menu {
+    margin: auto;
+    min-width: 80vw;
+  }
+}
+
+
+.home-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #F0F0F0;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .home-link:hover {
+    background-size: 4px 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .resume-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #F0F0F0;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .resume-link:hover {
+    background-size: 4px 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .projects-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #F0F0F0;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .projects-link:hover {
+    background-size: 4px 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .contact-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #F0F0F0;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .contact-link:hover {
+    background-size: 4px 50px;
+    color: white;
+    cursor: pointer;
+  }
+@media screen and (max-width:320px) {
+    .nav-menu {
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nav-menu {
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .nav-menu {
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-menu {
+        display: grid;
+        font-size: 16px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 10px;
+    }
+}

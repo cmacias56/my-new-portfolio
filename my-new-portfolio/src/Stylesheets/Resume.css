@@ -1,0 +1,268 @@
+.resume-section {
+    min-height: 100vh;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.skills-heading {
+    justify-content: center;
+    align-self: center;
+    color: #F0F0F0;
+}
+
+@media screen and (max-width:320px) {
+    .skills-heading {
+        font-size: 30px;
+        padding-top: 50px;
+    }    
+}
+
+@media screen and (max-width:375px) {
+    .skills-heading {
+        font-size: 30px;
+    }    
+}
+
+@media screen and (max-width:425px) {
+    .skills-heading {
+        font-size: 30px;
+        padding-top: 50px;
+    }    
+}
+
+@media screen and (max-width:768px) {
+    .skills-heading {
+        font-size: 30px;
+        padding-top: 75px;
+    }    
+}
+
+.skills-subheading {
+    justify-content: center;
+    align-self: center;
+}
+
+@media screen and (max-width:320px) {
+    .skills-subheading {
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width:425px) {
+    .skills-subheading {
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width:768px) {
+    .skills-subheading {
+        font-size: 15px;
+    }    
+}
+
+.skills-grid {
+    display: grid;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    list-style: none;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-column-gap: 60px;
+    grid-row-gap: 10px;
+    padding: 50px;
+}
+
+@media screen and (max-width:320px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        max-width: fit-content;
+        padding: 10px;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        max-width: fit-content;
+        padding: 50px;    }
+  }
+
+  
+
+@media screen and (max-width:425px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        max-width: fit-content;
+        padding: 50px;    }
+  }
+
+  @media screen and (max-width:768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        max-width: fit-content;
+        padding: 25px;    }
+  }
+
+
+.html-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.html-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.css-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.css-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.sass-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.sass-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.js-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.js-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.react-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.react-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.vscode-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.vscode-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.git-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.git-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.postgresql-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.postgresql-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
+
+.experience-heading {
+    align-self: center;
+    color: #F0F0F0;
+    /* padding-top: 75px; */
+}
+
+@media screen and (max-width:768px) {
+    .experience-heading {
+        font-size: 30px;
+        padding-top: 50px;
+    }    
+}
+
+.experience-subheading {
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .experience-subheading {
+        font-size: 15px;
+    }    
+}
+
+.experience-grid {
+    display: grid;
+    max-width: 1000px;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 110px;
+    padding: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .experience-grid {
+        display: grid;
+        max-width: 1000px;
+        text-align: center;
+        list-style: none;
+        margin: auto;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        grid-column-gap: 110px;
+        padding: 50px;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
