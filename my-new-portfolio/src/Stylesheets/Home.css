@@ -44,25 +44,21 @@
       margin: auto;
     }  
   }
-  
-  .name-title {
-    font-size: 20px;
-    color:#F0F0F0;
-  }
+
   
   @media screen and (max-width:320px) {
     .name-title {
-      font-size: 15px;
+      font-size: 45px;
       padding-top: 50px;
     }
   }
   
-  @media screen and (max-width:425px) {
+   @media screen and (max-width:425px) {
     .name-title {
       align-items: center;
       padding-top: 50px;
     }
-  }
+  } 
   
   @media screen and (max-width:768px) {
     .name-title {
@@ -232,4 +228,9 @@
       height: auto;
       cursor: pointer;
     }
+  }
+
+  .media-link {
+    justify-content: center;
+    font-size: 30px;
   }

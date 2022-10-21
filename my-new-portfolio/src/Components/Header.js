@@ -1,7 +1,8 @@
 import '../Stylesheets/Header.css'
 import '../Stylesheets/NavBar.css'
 import React from "react";
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import me from '../assets/images/me.png'
 
 
 function Header() {
@@ -9,7 +10,8 @@ function Header() {
     
           <section id="Home">
             <nav className="navbar-container">
-            {/* <img src={} alt="" className=""/> */}
+            <img src={me} alt="me" className="me" height="150px" width="150px"/>
+           
                 <ul className="nav-menu">
                     <li className="home-link">
                         <Link to="Home">HOME</Link>
@@ -29,5 +31,5 @@ function Header() {
       
     )
   }
-
+ 
   export default Header

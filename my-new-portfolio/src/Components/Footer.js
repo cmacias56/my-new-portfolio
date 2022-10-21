@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
         <div>
-            <p className='footer'>Christian Macias</p>
+            <p className='footer'> Developed by Christian Macias</p>
         </div>
         </>
     )

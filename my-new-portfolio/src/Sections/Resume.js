@@ -7,15 +7,16 @@ import Javascript from "../assets/images/js-icon.png";
 import reactIcon from "../assets/images/react-icon.png";
 import vscode from "../assets/images/vscode-icon.png";
 import git from "../assets/images/git-icon.png";
-import postgresql from "../assets/images/postgresql.png"
+import postgresql from "../assets/images/postgresql.png";
+// import ruby from "../assests/images/ruby.png";
 
 function Resume () {
     return (
         
         <section className="resume-section" id="Resume">
         <div className="skills-container">
-        <h1 className="skills-heading">Skills</h1>
-        <h5 className="skills-subheading">What I know</h5>
+        <h1 className="skills-heading">Coding Languages</h1>
+        <h4 className="skills-subheading">What I know So far</h4>
         <ul className="skills-grid">
           <li>
             <div><img src={HTML} alt="html-icon" className="html-icon"/>
@@ -71,10 +72,16 @@ function Resume () {
           <li>Correctional Officer</li>
         </ul>
     </div>
-    </section>
+    <br/>
+    <div className="button-container">
+      <a href="https://docs.google.com/document/d/1Vo8frUOa3__3cGukynBIHPLXlHHlxHqHRR75oi0zTfs/edit?usp=sharing"target="_blank" rel="noreferrer" alt="Resume link"><button className="button">View Resumé</button></a>
+      </div>
+      </section>
     
-        
     )
-}
+  }
+
+
+  
 
 export default Resume
