@@ -32,20 +32,6 @@
     }
   }
 
-.diego-image {
-    width: 120px;
-    /* border: dotted; */
-    height: auto;
-    padding: 20px;
-    margin: auto;
-}
-
-@media screen and (max-width:320px) {
-  .diego-image {
-    border: dotted;
-    margin: auto;
-  }
-}
 
 :root {
     --mainColor:#534334;;

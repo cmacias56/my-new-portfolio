@@ -2,7 +2,8 @@ import '../Stylesheets/Header.css'
 import '../Stylesheets/NavBar.css'
 import React from "react";
 import {Link} from 'react-scroll';
-import me from '../assets/images/me.png'
+import me from '../assets/images/me.png';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 
 function Header() {
@@ -14,16 +15,16 @@ function Header() {
            
                 <ul className="nav-menu">
                     <li className="home-link">
-                        <Link to="Home">HOME</Link>
+                        <a href="/">HOME</a>
                     </li>
                     <li className="resume-link">
-                        <Link to="Resume">RESUME</Link>
+                        <a href="/resume">RESUME</a>
                     </li>
                     <li className="projects-link">
-                        <Link to="Projects">PROJECTS</Link>
+                        <a href="/projects">PROJECTS</a>
                     </li>
                     <li className="contact-link">
-                        <Link to="Contact">CONTACT</Link>
+                        <a href="/contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>
