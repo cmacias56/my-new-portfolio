@@ -1,13 +1,12 @@
 import '../Stylesheets/Home.css'
 import React from 'react'
-import '../App.css'
 import github from "../assets/images/github-icon.png"
 import linkedin from "../assets/images/linkedin-icon.png"
 
 function Home() {
     return(
     
-    <section>
+    <section className='page-container'>
         <div className='home-container'>
             <br/>
             <h1 className='name-title'>Christian Macias</h1>

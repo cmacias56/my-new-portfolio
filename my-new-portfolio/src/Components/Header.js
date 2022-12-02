@@ -1,35 +1,41 @@
 import '../Stylesheets/Header.css'
 import '../Stylesheets/NavBar.css'
 import React from "react";
-import {Link} from 'react-scroll';
+// import {Link, useMatch, unResolvedPath} from 'react-scroll';
 import me from '../assets/images/me.png';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Link, useMatch, useResolvedPath} from 'react-router-dom';
 
 
 function Header() {
     return (
     
-          <section id="Home">
-            <nav className="navbar-container">
+          <section className="header-container">
+            {/* <nav className="navbar-container"> */}
             <img src={me} alt="me" className="me" height="150px" width="150px"/>
            
-                <ul className="nav-menu">
-                    <li className="home-link">
-                        <a href="/">HOME</a>
-                    </li>
-                    <li className="resume-link">
-                        <a href="/resume">RESUME</a>
-                    </li>
-                    <li className="projects-link">
-                        <a href="/projects">PROJECTS</a>
-                    </li>
-                    <li className="contact-link">
-                        <a href="/contact">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+                <div className="nav-menu">
+                    <Link to="/"/>
+                        <CustomLink className="home-link" to="/">HOME</CustomLink>
+                        <CustomLink className="resume-link" to="/resume">RESUME</CustomLink>
+                        <CustomLink className="projects-link" to="/projects">PROJECTS</CustomLink>
+                        <CustomLink className="contact-link" to="/contact">CONTACT</CustomLink>
+                </div>
+            {/* </nav> */}
             </section>
       
+    )
+  }
+
+  function CustomLink({ to, children, ...props }) {
+   const resolvedPath = useResolvedPath(to)
+   const isActive = useMatch({ path: resolvedPath.pathname, end: true})
+    
+    return (
+        <li className={isActive ? "active": ""}>
+            <Link to={to} {...props}>
+                {children}
+        </Link>
+        </li>
     )
   }
  
