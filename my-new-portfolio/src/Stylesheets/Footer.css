@@ -1,9 +1,10 @@
 .footer-container {
     display: flex;
-    background-color: black;
-    justify-content: center;
+    /* background-color: black; */
+    justify-content: auto;
     color: whitesmoke;
     margin: auto;
+    text-align: center;
 }
 .footer-items {
     align-self: center;

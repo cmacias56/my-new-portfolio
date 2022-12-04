@@ -10,9 +10,14 @@ const Contact = () => {
   const sendEmail= (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_jhj8y0c', 'remplate_84wnz9q', e.target, 'bpvslfMg_hLozvNXp')
+    emailjs.sendForm(
+      'service_jhj8y0c',
+      'template_d1p27xc', 
+      e.target, 
+      'bpvslfMg_hLozvNXp')
     .then((result) => {
-      console.log(result.text)
+      console.log(result.text);
+      console.log("message sent")
     }, (error) => {
       console.log(error.text)
     })
@@ -30,9 +35,9 @@ const Contact = () => {
     <form id="form" onSubmit={sendEmail}>
     <div className="form-items">
       <label>Name</label>
-      <input type="text" name="name" className="name-input"/>
+      <input type="text" name="user_name" className="name-input"/>
       <label>Email</label>
-      <input type="email" name="email" className="email-input"/>
+      <input type="email" name="user_email" className="email-input"/>
       <label>Message</label>
       <textarea name="message" className="message-input"/>
       <button type="submit" value="Send" className="button-send">Send</button>

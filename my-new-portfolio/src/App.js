@@ -8,21 +8,6 @@ import Projects from './Sections/Projects';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
-  // let component
-  // switch (window.location.pathname){
-  //     case "/":
-  //     component = <Home/>
-  //   break
-  //     case "/resume":
-  //       component = <Resume/>
-  //   break
-  //     case "/projects":
-  //       component = <Projects/>
-  //   break
-  //     case "/contact":
-  //       component = <Contact/>
-  //   break
-  // }
   return (
     <>
     <div className='App'>

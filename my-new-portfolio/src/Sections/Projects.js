@@ -20,6 +20,8 @@ function Projects () {
         <a href="https://perfect-pasta-pairings.herokuapp.com/" target="_blank" rel="noreferrer"><img src={pasta} height="200px"/></a>
         <p className="pasta">This is a capstone project that was completed using mob, pair, and individual programing to complete. Utilized React in Rails to complete this project.</p>
         </div>
+        <br/>
+        <br/>
     </section>
     </>
     )
