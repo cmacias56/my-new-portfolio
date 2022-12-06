@@ -2,8 +2,11 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import '../Stylesheets/Contact.css';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+// import { Modal } from 'repopup';
 
-
+  
 const Contact = () => {
   const form = useRef();
   
@@ -23,7 +26,8 @@ const Contact = () => {
     })
     e.target.reset()
   };
-  
+      
+
   return (
     
 
@@ -40,7 +44,9 @@ const Contact = () => {
       <input type="email" name="user_email" className="email-input"/>
       <label>Message</label>
       <textarea name="message" className="message-input"/>
-      <button type="submit" value="Send" className="button-send">Send</button>
+      {/* <button onClick={() => setOpen(true)} type="submit" value="Send" className="button-send">Send</button>  */}
+      <Popup trigger={<button type="submit" value="Send" className="button-send">Send</button>} position="top right">  <div>Messesage sent successfully!!</div>
+  </Popup> 
     </div>
     </form>
     </div>

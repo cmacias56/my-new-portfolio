@@ -1,6 +1,6 @@
 .App {
   font-family: 'Montserrat', sans-serif;
-  background-color:rgb(56, 67, 36);
+  background-color:#253031;
   color: #F0F0F0;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
 
 .button {
   border-radius: 5px;
-  background-color: #534334;
+  background-color: #2596a8;
   color: white;
   padding: 5px 20px 5px 20px;
   cursor: pointer;
@@ -28,5 +28,6 @@
 }
 
 .button:hover {
-  background-color: #66543E;
+  background-color: #e8f0f2;
+  color: black;
 }
