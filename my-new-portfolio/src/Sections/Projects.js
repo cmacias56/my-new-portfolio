@@ -3,14 +3,14 @@ import '../Stylesheets/Projects.css';
 import ash from '../assets/images/ash.png'
 import pig from '../assets/images/pig-latin.png'
 import pasta from '../assets/images/TheImpastas.png'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
 
 function Projects () {
     return (
     <>
     <br/>
-    <br/>
+    {/* <br/>
             <Carousel>
                 <div>
                 <a href="https://cmacias56.github.io/" target="_blank" rel="noreferrer"><img src= {ash} alt="" height="400px" width="-200px"/></a>
@@ -24,8 +24,8 @@ function Projects () {
                 <a href="https://perfect-pasta-pairings.herokuapp.com/" target="_blank" rel="noreferrer"><img src={pasta} height="400px" width="100px"/></a>
                  <p className="pasta">This is a capstone project that was completed using mob, pair, and individual programing to complete. Utilized React in Rails to complete this project.</p>
                 </div>
-            </Carousel>
-    {/* <section id="Projects">
+            </Carousel> */}
+    <section id="Projects">
         <div className="project-container">
         <h2 className="game">Feel free to play a game or two!</h2>
         <p className="instruction-paragraph">Click on the image to open the app.</p>
@@ -40,7 +40,7 @@ function Projects () {
         </div>
         <br/>
         <br/>
-    </section> */}
+    </section>
     </>
     )
 }
