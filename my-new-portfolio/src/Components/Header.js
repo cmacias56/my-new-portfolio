@@ -1,7 +1,6 @@
 import '../Stylesheets/Header.css'
 import '../Stylesheets/NavBar.css'
 import React from "react";
-// import {Link, useMatch, unResolvedPath} from 'react-scroll';
 import me from '../assets/images/me.png';
 import { Link, useMatch, useResolvedPath} from 'react-router-dom';
 
@@ -18,6 +17,7 @@ function Header() {
                         <CustomLink className="home-link" to="/">HOME</CustomLink>
                         <CustomLink className="resume-link" to="/resume">RESUME</CustomLink>
                         <CustomLink className="projects-link" to="/projects">PROJECTS</CustomLink>
+                        {/* <CustomLink className="aboutme-link" to="/aboutme">ABOUT ME</CustomLink> */}
                         <CustomLink className="contact-link" to="/contact">CONTACT</CustomLink>
                 </div>
             {/* </nav> */}

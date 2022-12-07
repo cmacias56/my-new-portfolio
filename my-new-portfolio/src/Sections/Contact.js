@@ -44,10 +44,9 @@ const Contact = () => {
       <input type="email" name="user_email" className="email-input"/>
       <label>Message</label>
       <textarea name="message" className="message-input"/>
-      {/* <button onClick={() => setOpen(true)} type="submit" value="Send" className="button-send">Send</button>  */}
-      <Popup trigger={<button type="submit" value="Send" className="button-send">Send</button>} position="top right">  <div>Messesage sent successfully!!</div>
-  </Popup> 
     </div>
+      <div className="pop"><Popup trigger={<button type="submit" value="Send" className="button-send">Send</button>} position="top right">  <div>Messesage sent successfully!!</div>
+  </Popup> </div>
     </form>
     </div>
     

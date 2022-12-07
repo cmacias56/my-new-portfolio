@@ -1,6 +1,5 @@
 .home-container {
     display: flex;
-    /* border:dotted; */
     flex-direction: column;
     justify-content: center;
     max-width: 950px;
@@ -239,3 +238,17 @@
     justify-content: center;
     margin: auto;
   }
+
+  .type {
+    display: flex;
+    font-size: large;
+    background-color: rgb(56, 52, 52);
+  }
+  /* .name {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* max-width: 950px; */
+    /* margin-left: 92px; */
+  /* }  */

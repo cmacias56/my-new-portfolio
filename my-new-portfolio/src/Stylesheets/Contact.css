@@ -29,6 +29,8 @@
 }
 
 .paragraph {
+    display: flex;
+    background-color: rgb(56, 52, 52);
     align-self: center;
 }
 
@@ -39,9 +41,16 @@
         max-width: 200px;
     }    
 }
+.pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
 
 .form-items {
     display: flex;
+    background-color: rgb(56, 52, 52);
     flex-direction: column;
     max-width: 45%;
     margin: auto;
