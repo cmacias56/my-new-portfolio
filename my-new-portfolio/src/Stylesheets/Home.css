@@ -89,24 +89,24 @@
     }
   }
   
-  .greeting-heading {
+  .greeting {
       font-size: 64px;
     }
   
     @media screen and (max-width:320px) {
-      .greeting-heading {
+      .greeting {
         font-size: 30px;
       }
     }
   
     @media screen and (max-width:425px) {
-      .greeting-heading {
+      .greeting {
         font-size: 30px;
       }
     }
   
     @media screen and (max-width:768px) {
-      .greeting-heading {
+      .greeting {
         font-size: 30px;
       }
     }
@@ -241,8 +241,14 @@
 
   .type {
     display: flex;
+    justify-content: center;
     font-size: large;
     background-color: rgb(56, 52, 52);
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
   }
   /* .name {
     display: flex;

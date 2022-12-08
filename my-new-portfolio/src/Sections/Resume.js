@@ -20,6 +20,7 @@ function Resume () {
       </div>
         <h1 className="skills-heading">Coding Languages</h1>
         <h4 className="skills-subheading">What I know So far</h4>
+        <div className="icons">
         <ul className="skills-grid">
           <li>
             <div><img src={HTML} alt="html-icon" className="html-icon"/>
@@ -62,6 +63,7 @@ function Resume () {
             </div>
           </li>
         </ul>
+        </div>
         </div>
 
     <div className="experience-container">

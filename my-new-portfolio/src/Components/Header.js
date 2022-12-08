@@ -17,7 +17,7 @@ function Header() {
                         <CustomLink className="home-link" to="/">HOME</CustomLink>
                         <CustomLink className="resume-link" to="/resume">RESUME</CustomLink>
                         <CustomLink className="projects-link" to="/projects">PROJECTS</CustomLink>
-                        {/* <CustomLink className="aboutme-link" to="/aboutme">ABOUT ME</CustomLink> */}
+                        <CustomLink className="aboutme-link" to="/aboutme">ABOUT ME</CustomLink>
                         <CustomLink className="contact-link" to="/contact">CONTACT</CustomLink>
                 </div>
             {/* </nav> */}
