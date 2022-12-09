@@ -234,6 +234,7 @@
   
   .link {
     display: flex;
+    background-color: rgb(56, 52, 52);
     flex-direction: column;
     justify-content: center;
     margin: auto;

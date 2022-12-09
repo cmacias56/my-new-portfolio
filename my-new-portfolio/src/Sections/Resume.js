@@ -16,7 +16,7 @@ function Resume () {
         <section className="resume-section" id="Resume">
         <div className="skills-container">
     <div className="button-container">
-      <a href="https://1drv.ms/b/s!AgQkeZ2oADgQhjsaacIyC2snC90W?e=4cU3ps"target="_blank" rel="noreferrer" alt="Resume link"><button className="button">View Resumé</button></a>
+      <a href="https://docs.google.com/document/d/12ZdPH28368WyTqgxvojLPiv-Sy1IQYWe/edit"target="_blank" rel="noreferrer" alt="Resume link"><button className="button">View Resumé</button></a>
       </div>
         <h1 className="skills-heading">Coding Languages</h1>
         <h4 className="skills-subheading">What I know So far</h4>

@@ -21,7 +21,7 @@ const AboutMe = () => {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                    .changeDelay(20)
+                    .changeDelay(18)
                     .typeString("Hello! My name is Christian, I am a Full-Stack Developer that has served as a Cavalry Scout in the US Army.")
                     .pauseFor(1000)
                     .typeString(" I've attended LEARN Academy where I have studied extensively in both front-end and back-end development using languages such as JavaScript, Ruby, CSS, etc..")
