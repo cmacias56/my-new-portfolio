@@ -8,7 +8,7 @@ import { Link, useMatch, useResolvedPath} from 'react-router-dom';
 function Header() {
     return (
     
-          <section className="header-container">
+          <section className="header-container bg-red">
             {/* <nav className="navbar-container"> */}
             <img src={me} alt="me" className="me" height="150px" width="150px"/>
            
@@ -17,6 +17,7 @@ function Header() {
                         <CustomLink className="home-link" to="/">HOME</CustomLink>
                         <CustomLink className="resume-link" to="/resume">RESUME</CustomLink>
                         <CustomLink className="projects-link" to="/projects">PROJECTS</CustomLink>
+                        <CustomLink className="projects-link" to="/tictactoe">GAME</CustomLink>
                         <CustomLink className="aboutme-link" to="/aboutme">ABOUT ME</CustomLink>
                         <CustomLink className="contact-link" to="/contact">CONTACT</CustomLink>
                 </div>

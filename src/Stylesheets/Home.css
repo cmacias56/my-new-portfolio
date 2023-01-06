@@ -4,6 +4,7 @@
     justify-content: center;
     max-width: 950px;
     margin: auto;
+    padding-top: 150px
   }
   
   @media screen and (max-width:320px) {
