@@ -252,11 +252,15 @@
     display: flex;
     justify-content: center;
   }
-  /* .name {
-    display: flex;
-    text-align: left;
+  h1{
+    color: #F0F0F0;
+  }
+  .name {
+    color: #F0F0F0;
+    /* display: flex; */
+    text-align: left; 
     flex-direction: column;
-    /* justify-content: center; */
+    /* justify-content: center;  */
     /* max-width: 950px; */
     /* margin-left: 92px; */
-  /* }  */
+   } 

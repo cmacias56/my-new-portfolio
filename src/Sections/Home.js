@@ -9,9 +9,9 @@ function Home() {
     
     <section className='page-container'>
         <div className='home-container'>
-            <div className='name'><h1 >Christian Macias</h1>
+            <h2>Christian Macias</h2>
             <p>Full-Stack Developer</p>
-            </div>
+            {/* </div> */}
             <br/>
             <br/>
             
