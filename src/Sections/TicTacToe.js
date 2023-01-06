@@ -114,8 +114,16 @@ const TicTacToe = () => {
       <div className="button">
         <button onClick={handleReset}>Restart Game</button>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <p className='brand'>Coded by Christian Macias & Nathaniel Ross-loyo ( <a href="https://nathaniel-ross-loyo.onrender.com/">nathaniel-ross-loyo.onrender.com</a> ) </p>
     </div>
   )
+  
 }
 
 

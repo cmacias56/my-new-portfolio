@@ -35,6 +35,13 @@ h1 {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
+.brand{
+  color: black;
+  /* display: flex; */
+  margin: auto;
+  text-align: center;
+  font-size: large;
+}
 
 @keyframes gradient {
 	0% {
