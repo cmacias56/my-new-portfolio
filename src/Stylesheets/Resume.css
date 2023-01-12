@@ -156,6 +156,17 @@
     height: auto;
     padding-bottom: 5px;
 }
+.rb-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.rb-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
 
 .react-icon {
     width:50%;

@@ -8,7 +8,10 @@ import reactIcon from "../assets/images/react-icon.png";
 import vscode from "../assets/images/vscode-icon.png";
 import git from "../assets/images/git-icon.png";
 import postgresql from "../assets/images/postgresql.png";
-// import ruby from "../assests/images/ruby.png";
+import ruby from "../assets/images/ruby.png";
+import TW from "../assets/images/tailwind.png";
+import rails from "../assets/images/rails.png";
+import rspec from "../assets/images/rspec.png"
 
 function Resume () {
     return (
@@ -33,13 +36,28 @@ function Resume () {
             </div>
           </li>
            <li> 
-             <div><img src={postman} alt="postman-icon" className="postman-icon" height="50px"/>
+             <div><img src={postman} alt="postman-icon" className="rb-icon" height="50px"/>
             <p>Postman</p>
             </div> 
           </li>
           <li>
             <div><img src={Javascript} alt="js-icon" className="js-icon"/>
             <p>Javascript</p>
+            </div>
+          </li>
+          <li>
+            <div><img src={ruby} alt="rb-icon" className="rb-icon"/>
+            <p>Ruby</p>
+            </div>
+          </li>
+          <li>
+            <div><img src={rails} alt="rails-icon" className="rb-icon"/>
+            <p>Rails</p>
+            </div>
+          </li>
+          <li>
+            <div><img src={rspec} alt="rspec-icon" className="rb-icon"/>
+            <p>Rspec</p>
             </div>
           </li>
           <li>
@@ -60,6 +78,11 @@ function Resume () {
           <li>
             <div><img src={postgresql} alt="postgresql-icon" className="postgresql-icon"/>
             <p>PostgreSQL</p>
+            </div>
+          </li>
+          <li>
+            <div><img src={TW} alt="tailwind-icon" className="postgresql-icon"/>
+            <p>Tailwind</p>
             </div>
           </li>
         </ul>
