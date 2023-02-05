@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Components created - branch "components"
+
+- Header - contains navbar/ img
+- footer - basic info
+
+# Section folder - "Sections"
+
+- Home - contains introduction along with typewriter effect. Add Links to github and linkedin
+- Resume - add resume button with link. Add skill icons
+- Projects - Add projects/description/imgs with links included within images. *****transfer info into cards using possible mui or tailwind css
+- Aboutme - add army image/ typewriter effect with brief description
+- Contact - use Emailjs template and link contact card with service
+
+# Stylesheet folder - branch "Style"
+
+- Create style sheets for each section/component
+
+# App.js - branch "page"
+
+- import each section and component to app js
+- set order of sections
+
+# Browser Router - branch "routes"
+
+- import browser router into indexjs
+- Import route and routes within appjs
+- wrap routes sections in a routes tag
+- add section to route tag, set paths to each section. element will be section name.
+
+# Add game - branch "tictactoe"
+
+- create section named tictactoe
+- create board
+- set up game functionality by turn base on click
+- style board
+- set restart button 
+- Add Game to navbar
+- add section with route tag to appjs
